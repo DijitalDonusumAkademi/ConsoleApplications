@@ -22,7 +22,7 @@ namespace ReferenceAndValueTypes
             sehirler2 = sehirler1;
             //sehirler2 de artık 102 adresini gösterecektir. referans yolunu gösterecektir.
 
-            sehirler1[0] = "Almanya";
+            sehirler1[0] = "İzmir";
 
             foreach (var sehir in sehirler2)
             {
